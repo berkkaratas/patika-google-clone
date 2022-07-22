@@ -34,3 +34,59 @@ body {
      color: #fff;
      margin-right: 18px;
 }
+.nav >  a:hover{
+     text-decoration: underline;
+}
+
+
+.logo{
+     height: 292px;
+     display: flex;
+     align-items: flex-end;
+}
+.search{
+     margin-top: 20px;
+     width: 600px;
+     height: 50px;
+     display: flex;
+     justify-content: center;
+     border: 1px solid #5f6368;
+     border-radius: 25px;
+     align-items: center;
+}
+.search-button{
+     height: 50px;
+     width: 50px;
+     background-color: transparent;
+     border: none;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     cursor: pointer;
+}
+.search-input{
+     width: 80%;
+     height: 95%;
+     border: none;
+     border-radius: 50px;
+     display: flex;
+     color: #fff;
+     justify-content: center;
+     align-items: center;
+     background-color: #202124;
+}
+.search-input:focus{
+     outline: none;
+}
+.search-button:hover{
+     background-color: #5f6368;
+     border-radius: 50%;
+     color: #202124;
+}
+.search-button:focus{
+     outline: none; 
+}
+.search:focus{
+     background-color: #5f6368;
+}
+
